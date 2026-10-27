@@ -173,6 +173,27 @@ body {
     text-align: justify;
 }
 
+.container-imagem {
+    position: relative;
+    width: 100%;        
+    max-width: 600px;   
+}
+
+.container-imagem img {
+    width: 100%;        
+    height: auto;
+    display: block;
+}
+
+.texto-sobre-imagem {
+    position: absolute; 
+    top: 20px;          
+    left: 20px;         
+    right: 20px;       
+    color: #ffffff;     
+    z-index: 10;        
+}
+
 .contato {
     padding: 28px 10px 32px;
     text-align: center;
